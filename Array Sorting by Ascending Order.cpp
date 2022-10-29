@@ -2,10 +2,12 @@
 using namespace std;
 int main()
 {
-	int arr[10], temp;
+	//initializing variables
+	int arr[10], temp = NULL;
 	cout << "...........Ascending Order Array Sorting..........." << endl << endl;
 	for (int i = 0; i < 10; i++)
 	{
+		//printing statements
 		cout << "Enter elements in array: ";
 		cin >> arr[i];
 	}
@@ -13,6 +15,7 @@ int main()
 	{
 		for (int j = 0; j < 10 - 1; j++)
 		{
+			//if statement for logic in loop
 			if (arr[j] > arr[j + 1])
 			{
 				temp = arr[j];
